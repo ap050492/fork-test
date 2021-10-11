@@ -6,6 +6,11 @@ app.get('/', (req, res) => {
     res.send('Well done Prasad!');
 })
 
+app.get('/status', (req, res) => {
+    res.send('Status Check!');
+})
+
+
 app.listen(3000, () => {
     console.log('The application is listening on port 3000!');
 })
